@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Python script
-        uses: actions/setuo-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: 3.9
       - name: Run Python Script
